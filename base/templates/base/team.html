@@ -1,0 +1,55 @@
+{% extends 'base/main.html'%} {%load static%} {%block content%}
+<link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles/main.css' %}" />
+
+<section id="team">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-8 mx-auto text-center">
+                <h6 class="text-primary">TEAM</h6>
+                <h1>Meet Our Crew Members</h1>
+                <p>We are bachelors students trying to do our project. We are using Django python for our project Currently we study in Vedas intl college
+                </p>
+
+            </div>
+        </div>
+        <div class="row text-center justify-content-center g-3">
+            <div class="col-lg-3 col-sm-6">
+                <div class="team-member card-effect">
+                    <img src="{%static 'images/team2.jpg'%}" alt="">
+                    <h5 class="mb-0 mt-4">Ashok Sherestha</h5>
+                    <p>Web Developer</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="team-member card-effect">
+                    <img src="{%static 'images/team1.jpg'%}" alt="">
+                    <h5 class="mb-0 mt-4">Ejan Sherestha</h5>
+                    <p>Web Designer</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="team-member card-effect">
+                    <img src="{%static 'images/team3.jpg'%}" alt="">
+                    <h5 class="mb-0 mt-4">Jiwan chanda</h5>
+                    <p>Web Developer</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{%endblock%}

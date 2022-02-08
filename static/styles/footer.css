@@ -1,0 +1,21 @@
+.footer-top {
+    padding-bottom: 90px;
+    padding: 90px;
+    background-color: rgb(81, 87, 80);
+}
+
+.logo {
+    width: 160px;
+}
+
+.footer-top a {
+    color: rgb(211, 202, 202);
+}
+
+.footer-top a:hover {
+    color: rgb(32, 30, 30);
+}
+
+.footer-bottom {
+    background-color: rgb(81, 87, 80);
+}
